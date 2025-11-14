@@ -1,15 +1,17 @@
-.tarea {
-    color: blue;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 20px;
-    background-color: peru;
-    
-    &:hover {
-    color: red;
-    }
 
-    span {
-    font-weight: bold;
-    }
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
+@font-face {
+    font-family: 'techMono';
+    src: url('../fonts/ShareTechMono-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'techMono';
+    font-weight: normal;
+}
+

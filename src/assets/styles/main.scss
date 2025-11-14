@@ -1,0 +1,15 @@
+.tarea {
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: peru;
+    
+    &:hover {
+    color: red;
+    }
+
+    span {
+    font-weight: bold;
+    }
+}

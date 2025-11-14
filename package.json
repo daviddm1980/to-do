@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.1",
     "parcel": "^2.16.1",
     "posthtml": "^0.16.7",
     "posthtml-include": "^2.0.1",

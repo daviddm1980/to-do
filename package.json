@@ -6,7 +6,7 @@
     "build": "parcel build src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "DavidDM",
   "license": "ISC",
   "description": "",
   "devDependencies": {

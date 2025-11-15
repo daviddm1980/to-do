@@ -1,9 +1,14 @@
 const textArea = document.getElementById("toDo");
 
 function crearTarea() {
-	const valorArea = textArea.value.trim();
+	const valorArea = textArea.value;
+    const valorLimpio = valorArea.trim();
 
-	if (textArea.value === "") return;
+
+	if (valorLimpio === "") {
+        textArea.value = '';
+        return;
+    }
 
 	const containerToDo = document.querySelector("ul");
 	const li = document.createElement("li");
@@ -26,4 +31,11 @@ function crearTarea() {
 	textArea.value = "";
 }
 
+
+document.addEventListener('keydown',event=> {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        crearTarea();
+    }
+});
 document.getElementById("btnEnviar").addEventListener("click", crearTarea);
